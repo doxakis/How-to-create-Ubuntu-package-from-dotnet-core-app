@@ -10,7 +10,7 @@ rm -rf demoapp*.deb
 
 for i in "${targets[@]}"
 do
-	echo "Compiling for $i"
+    echo "Compiling for $i"
 
     rm -rf demoapp/usr/bin/demoappbin
     rm -rf demoapp/bin
@@ -21,8 +21,7 @@ do
     dotnet restore
 
     dotnet publish -c Release -r $i
-
-    # Remove previous install.
+    
     mkdir usr/bin/demoappbin
     cp -R bin/Release/netcoreapp1.1/$i/publish/* usr/bin/demoappbin
 
