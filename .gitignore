@@ -1,0 +1,5 @@
+demoapp*.deb
+demoapp/usr/bin/demoappbin
+demoapp/bin
+demoapp/obj
+.vscode/

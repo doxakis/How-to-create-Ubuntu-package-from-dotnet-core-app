@@ -1,0 +1,2 @@
+sudo chown -R root:root /usr/bin/demoapp
+sudo chown -R root:root /usr/bin/demoappbin/

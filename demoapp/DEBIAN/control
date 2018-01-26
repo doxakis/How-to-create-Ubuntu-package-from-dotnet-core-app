@@ -1,0 +1,9 @@
+Package: demoapp
+Version: 1.0.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: bash
+Maintainer: Philip Doxakis
+Description: This is the demo app
+Homepage: https://example.com
