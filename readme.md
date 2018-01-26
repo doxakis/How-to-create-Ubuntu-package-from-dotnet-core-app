@@ -10,7 +10,7 @@ On Mac OS X, you will need to install dpkg. (```brew install dpkg```)
 ## Steps
 
 - Run: ```./create-package.sh``` to create the .deb file
-- Upload .deb file (FTP, etc.) on the machine
+- Upload .deb file on the machine
 - Make sure libunwind8 is installed. (```apt-get install libunwind8```) (see: https://github.com/dotnet/cli/issues/3390)
 - ```dpkg -i [.deb file]``` (ex: demoapp-ubuntu.16.04-x64.deb)
 
