@@ -28,7 +28,7 @@ On Mac OS X, you will need to install dpkg. (```brew install dpkg```)
 
 ## FAQ
 
-### Problem 1
+Problem:
 ```
 Failed to load /usr/bin/demoappbin/libcoreclr.so, error: libunwind.so.8: cannot open shared object file: No such file or directory
 Failed to bind to CoreCLR at '/usr/bin/demoappbin/libcoreclr.so'
